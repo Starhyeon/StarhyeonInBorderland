@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathQuest Bellmore — Free Math Resources for K–6 Students</title>
+  <meta name="description" content="A DECA Community Awareness Project providing free, standards-aligned math curriculum and interactive games for elementary students at the Bellmore Public Library.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-icon">M</div>
+      MathQuest
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#games">Practice & Play</a></li>
+      <li><a href="#about">Our Mission</a></li>
+      <li><a href="#register">Join Sessions</a></li>
+      <li><a href="#findus">Visit Us</a></li>
+    </ul>
+    <button class="nav-hamburger" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="badge badge-navy" style="margin-bottom:16px">DECA Community Awareness Project</span>
+        <h1>Making Math <em>Click</em> for Every Student</h1>
+        <p>Free, standards-aligned math curriculum and interactive learning tools for K–6 students — brought to you by the Bellmore Public Library and student leaders who believe every child deserves to love numbers.</p>
+        <div class="hero-buttons">
+          <a href="#curriculum" class="btn btn-primary">Explore Lessons →</a>
+          <a href="#games" class="btn btn-outline">Play Math Games</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>7</strong><span>Grade Levels</span></div>
+          <div class="hero-stat"><strong>40+</strong><span>Math Topics</span></div>
+          <div class="hero-stat"><strong>5</strong><span>Interactive Games</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=450&fit=crop" alt="Children learning math together" class="hero-card-img" loading="eager">
+        </div>
+        <div class="hero-floating-badge one"><span class="emoji">✅</span> 100% Free</div>
+        <div class="hero-floating-badge two"><span class="emoji">📚</span> Standards-Aligned</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="section-pad" id="curriculum">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-navy">Learn by Grade</span>
+      <h2>Standards-Aligned Curriculum</h2>
+      <p>Explore math topics for every grade level, carefully aligned with New York State and Common Core standards. Click any grade to start learning.</p>
+    </div>
+    <div class="grade-grid" id="gradeGrid"></div>
+  </div>
+</section>
+
+<!-- GAMES -->
+<section class="section-pad" id="games">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-gold">Practice & Play</span>
+      <h2>Interactive Math Games</h2>
+      <p>Reinforce skills with fun, browser-based games designed to build fluency and confidence. No downloads or accounts needed.</p>
+    </div>
+    <div class="games-grid" id="gamesGrid"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section-pad" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-sage">Our Mission</span>
+      <h2>About This Project</h2>
+      <p>A student-led initiative to bridge the math literacy gap — one lesson, one game, and one student at a time.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-content">
+        <h3>Why MathQuest Exists</h3>
+        <p>Too many elementary students lack access to quality math tutoring outside the classroom. MathQuest Bellmore was created to change that — by providing a completely free, online curriculum paired with hands-on tutoring sessions at the Bellmore Public Library.</p>
+        <p>Our goal is simple: give every K–6 student in the Bellmore community the tools, confidence, and support they need to succeed in math — regardless of their family's resources.</p>
+        <h3>The DECA Connection</h3>
+        <p>This project is a <strong>DECA Community Awareness Project (CAP)</strong>, one of DECA's Project Management Events. DECA is an international association of over 275,000 high school and college students preparing for careers in marketing, finance, hospitality, and management.</p>
+        <p>The Community Awareness Project challenges student teams to use the project management process — initiating, planning, executing, monitoring, and closing — to raise awareness for a community issue. Our issue: the gap in accessible, quality math education for young learners.</p>
+        <div class="deca-framework">
+          <h4>Our Project Management Framework</h4>
+          <div class="framework-steps">
+            <div class="framework-step"><div class="framework-step-num">1</div><div class="framework-step-text"><strong>Initiate:</strong> Identified the need for free, standardized math resources through community surveys and conversations with librarians and teachers.</div></div>
+            <div class="framework-step"><div class="framework-step-num">2</div><div class="framework-step-text"><strong>Plan:</strong> Designed a dual-approach solution — an interactive website for anytime learning and scheduled in-person tutoring sessions.</div></div>
+            <div class="framework-step"><div class="framework-step-num">3</div><div class="framework-step-text"><strong>Execute:</strong> Built this website with standards-aligned content for all 7 grade levels, plus 5 interactive games, and launched registration for library sessions.</div></div>
+            <div class="framework-step"><div class="framework-step-num">4</div><div class="framework-step-text"><strong>Monitor:</strong> Tracking website engagement, registration numbers, and student progress through feedback surveys.</div></div>
+            <div class="framework-step"><div class="framework-step-num">5</div><div class="framework-step-text"><strong>Close:</strong> Evaluating impact, compiling results, and preparing for DECA competition presentation.</div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size:1.5rem;color:var(--navy);margin-bottom:20px">Meet the Team</h3>
+        <p style="color:var(--text-mid);margin-bottom:24px">The students behind MathQuest Bellmore — driven by DECA's mission of preparing emerging leaders and entrepreneurs.</p>
+        <div class="team-grid">
+          <div class="team-card"><div class="team-avatar">👤</div><h4>Team Member</h4><p>Project Lead</p></div>
+          <div class="team-card"><div class="team-avatar">👤</div><h4>Team Member</h4><p>Content Director</p></div>
+          <div class="team-card"><div class="team-avatar">👤</div><h4>Team Member</h4><p>Outreach Coordinator</p></div>
+        </div>
+        <div style="margin-top:32px;padding:24px;background:var(--cream);border-radius:var(--radius-lg)">
+          <h4 style="font-family:var(--font-heading);color:var(--navy);margin-bottom:8px">Community Impact Goals</h4>
+          <p style="font-size:0.92rem;color:var(--text-mid);margin-bottom:12px">We measure success in confidence built and opportunities created:</p>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;align-items:center;gap:10px;font-size:0.92rem;color:var(--text-mid)"><span style="color:var(--sage);font-weight:700">✓</span> Reach 100+ students in the first semester</div>
+            <div style="display:flex;align-items:center;gap:10px;font-size:0.92rem;color:var(--text-mid)"><span style="color:var(--sage);font-weight:700">✓</span> Provide 500+ hours of free tutoring</div>
+            <div style="display:flex;align-items:center;gap:10px;font-size:0.92rem;color:var(--text-mid)"><span style="color:var(--sage);font-weight:700">✓</span> Improve math confidence scores by 20%+</div>
+            <div style="display:flex;align-items:center;gap:10px;font-size:0.92rem;color:var(--text-mid)"><span style="color:var(--sage);font-weight:700">✓</span> Create a sustainable, replicable program</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTER -->
+<section class="section-pad" id="register">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-terra">Join In-Person Sessions</span>
+      <h2>Free Tutoring at the Library</h2>
+      <p>Sign up for free, in-person math lessons and tutoring at the Bellmore Public Library. Small groups, real support, zero cost.</p>
+    </div>
+    <div class="register-grid">
+      <div class="register-info">
+        <h3>What to Expect</h3>
+        <p>Our tutoring sessions are designed to be fun, supportive, and effective. Each session is led by trained student tutors and aligned with what your child is learning in school.</p>
+        <div class="session-detail"><div class="icon">📅</div><div><strong>Schedule</strong><span>Saturdays, 10:00 AM – 12:00 PM<br>Wednesdays, 4:00 PM – 5:30 PM</span></div></div>
+        <div class="session-detail"><div class="icon">👥</div><div><strong>Group Size</strong><span>Small groups of 4–6 students per tutor</span></div></div>
+        <div class="session-detail"><div class="icon">🎓</div><div><strong>Grade Levels</strong><span>Kindergarten through 6th grade — all skill levels welcome</span></div></div>
+        <div class="session-detail"><div class="icon">💰</div><div><strong>Cost</strong><span>100% free. We provide everything.</span></div></div>
+        <h3>Who This Is For</h3>
+        <p>Any elementary student in the Bellmore area who wants extra practice, homework help, or a confidence boost in math. Parents are welcome to stay or drop off.</p>
+      </div>
+      <div class="register-form" id="registerForm">
+        <h3>Register Your Student</h3>
+        <form id="registrationForm" onsubmit="handleRegistration(event)">
+          <div class="form-row">
+            <div class="form-group"><label for="parentName">Parent / Guardian Name</label><input type="text" id="parentName" placeholder="Jane Smith" required></div>
+            <div class="form-group"><label for="studentName">Student Name</label><input type="text" id="studentName" placeholder="Alex Smith" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="jane@example.com" required></div>
+            <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="(516) 555-0123"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="grade">Student's Grade</label><select id="grade" required><option value="">Select grade...</option><option>Kindergarten</option><option>1st Grade</option><option>2nd Grade</option><option>3rd Grade</option><option>4th Grade</option><option>5th Grade</option><option>6th Grade</option></select></div>
+            <div class="form-group"><label for="session">Preferred Session</label><select id="session" required><option value="">Select session...</option><option>Saturday Morning (10 AM – 12 PM)</option><option>Wednesday Afternoon (4 – 5:30 PM)</option><option>Either / No Preference</option></select></div>
+          </div>
+          <div class="form-group"><label for="notes">Anything else we should know?</label><textarea id="notes" rows="3" placeholder="Specific topics, accessibility needs, etc."></textarea></div>
+          <div class="form-submit"><button type="submit" class="btn btn-primary">Register Now →</button></div>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="checkmark">🎉</div>
+          <h4>You're Registered!</h4>
+          <p>Thank you for signing up. We'll send a confirmation to your email with all the details. See you at the library!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIND US -->
+<section class="section-pad" id="findus">
+  <div class="container">
+    <div class="section-header">
+      <span class="badge badge-navy">Visit Us</span>
+      <h2>Find the Library</h2>
+      <p>Our tutoring sessions take place at the Bellmore Memorial Library — a welcoming space in the heart of Bellmore.</p>
+    </div>
+    <div class="findus-grid">
+      <div class="findus-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.8!2d-73.528!3d40.669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27e2c3e7a1a2d%3A0x7e5f8a8c6a2b3c4d!2s2288+Bedford+Ave%2C+Bellmore%2C+NY+11710!5e0!3m2!1sen!1sus!4v1" allowfullscreen="" loading="lazy" title="Bellmore Memorial Library Location"></iframe>
+      </div>
+      <div class="findus-info">
+        <h3>Bellmore Memorial Library</h3>
+        <div class="findus-detail"><div class="icon">📍</div><div><strong>Address</strong><span>2288 Bedford Avenue, Bellmore, NY 11710</span></div></div>
+        <div class="findus-detail"><div class="icon">📞</div><div><strong>Phone</strong><span>(516) 785-2990</span></div></div>
+        <div class="findus-detail"><div class="icon">🕐</div><div><strong>Library Hours</strong>
+          <div class="hours-list">
+            <div><span>Mon, Tue, Thu</span><span>9:30 AM – 9:00 PM</span></div>
+            <div><span>Wednesday</span><span>10:30 AM – 9:00 PM</span></div>
+            <div><span>Friday</span><span>9:30 AM – 5:30 PM</span></div>
+            <div><span>Saturday</span><span>9:30 AM – 5:00 PM</span></div>
+            <div><span>Sunday</span><span>1:00 PM – 5:00 PM</span></div>
+          </div>
+        </div></div>
+        <div class="findus-detail"><div class="icon">🚌</div><div><strong>Getting Here</strong><p>Accessible by NICE Bus routes n19 and n27. Free parking available. Fully ADA accessible with ramp entry and elevator.</p></div></div>
+        <div class="findus-detail"><div class="icon">♿</div><div><strong>Accessibility</strong><p>Wheelchair-accessible entrances, accessible restrooms, and assistive listening devices. All tutoring rooms on accessible floors.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo"><div class="nav-logo-icon">M</div>MathQuest Bellmore</div>
+        <p>A free math education platform created by DECA student leaders for elementary students in the Bellmore community. Built with care, powered by purpose.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#games">Math Games</a>
+        <a href="#about">Our Mission</a>
+        <a href="#register">Join Sessions</a>
+        <a href="#findus">Visit Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Grade Levels</h4>
+        <a href="#" onclick="openGradeModal(0);return false">Kindergarten</a>
+        <a href="#" onclick="openGradeModal(1);return false">1st Grade</a>
+        <a href="#" onclick="openGradeModal(2);return false">2nd Grade</a>
+        <a href="#" onclick="openGradeModal(3);return false">3rd Grade</a>
+        <a href="#" onclick="openGradeModal(4);return false">4th – 6th Grade</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="https://www.deca.org" target="_blank" rel="noopener">DECA.org</a>
+        <a href="https://bellmorelibrary.org" target="_blank" rel="noopener">Bellmore Library</a>
+        <a href="http://www.nysed.gov/next-generation-learning-standards" target="_blank" rel="noopener">NYS Standards</a>
+        <a href="https://www.corestandards.org/Math/" target="_blank" rel="noopener">Common Core Math</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 MathQuest Bellmore. A DECA Community Awareness Project.</span>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span>Proudly associated with</span>
+        <strong style="color:#C9A84C">DECA Inc.</strong>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="gradeModal">
+  <div class="modal">
+    <div class="modal-close"><button onclick="closeGradeModal()" aria-label="Close">✕</button></div>
+    <div class="modal-body" id="gradeModalBody"></div>
+  </div>
+</div>
+<div class="game-modal" id="gameModal">
+  <div class="game-header">
+    <h2 id="gameTitle">Game</h2>
+    <button class="game-close" onclick="closeGameModal()" aria-label="Close game">✕</button>
+  </div>
+  <div class="game-body" id="gameBody"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
