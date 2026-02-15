@@ -11,16 +11,6 @@ MathQuest Bellmore is a student-led initiative designed to address the gap in ac
 - **Free in-person tutoring** registration at the Bellmore Memorial Library
 - **Community resources** including library information and directions
 
-## DECA CAP Connection
-
-This website serves as the primary deliverable of a **DECA Community Awareness Project (CAP)**, one of DECA's Project Management Events. The project follows DECA's project management framework:
-
-1. **Initiate** — Identified the need for free math resources via community research
-2. **Plan** — Designed a website + in-person tutoring dual approach
-3. **Execute** — Built the platform with 40+ topics and 5 interactive games
-4. **Monitor** — Tracking engagement, registrations, and student feedback
-5. **Close** — Evaluating impact and preparing competition presentation
-
 ## Tech Stack
 
 - **HTML5** — Semantic, accessible markup
