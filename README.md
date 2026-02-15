@@ -1,6 +1,6 @@
 # MathQuest Bellmore
 
-**A DECA Community Awareness Project (CAP)** — Free, standards-aligned math curriculum and interactive learning tools for K–6 students at the Bellmore Public Library.
+Free, standards-aligned math curriculum and interactive learning tools for K–6 students at the Bellmore Public Library.
 
 ## About
 
