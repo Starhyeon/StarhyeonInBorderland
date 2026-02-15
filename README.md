@@ -86,4 +86,4 @@ This project was created for educational and competition purposes as part of a D
 
 ---
 
-*Built with care by DECA student leaders for the Bellmore community.*
+*Built with care by Joshua Sat for the Bellmore community.*
